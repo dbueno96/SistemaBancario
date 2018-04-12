@@ -5,7 +5,7 @@ public class TransferenciaTarjetaCreditoAdapter implements CajeroAutomatico{
 
 	public TransferenciaTarjetaCreditoAdapter(TarjetaCredito tarjeta) {
 		// TODO Auto-generated constructor stub
-		this.adaptee2 = tarjeta;
+		this.adaptee2 = new TarjetaCredito(); 
 	}
 	
 	@Override

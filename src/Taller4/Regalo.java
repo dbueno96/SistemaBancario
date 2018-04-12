@@ -11,4 +11,13 @@ package Taller4;
  */
 public class Regalo {
     
+    String regalo; 
+    
+    public Regalo(){
+        
+    }
+    
+    public String getRegalo(){
+        return regalo; 
+    }
 }

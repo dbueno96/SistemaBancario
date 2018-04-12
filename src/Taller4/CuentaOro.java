@@ -11,4 +11,17 @@ package Taller4;
  */
 public class CuentaOro extends Cuenta{
     
+    private TarjetaDebitoOro tdo; 
+    
+    public CuentaOro(){
+        this.descuento= (float) 0.015; 
+    }
+    
+    public void abrir(){
+        tdo = new TarjetaDebitoOro();
+    }
+    
+    public TarjetaDebitoOro getTarjetaDebito(){
+        return tdo; 
+    }
 }

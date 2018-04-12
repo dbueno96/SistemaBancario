@@ -11,4 +11,18 @@ package Taller4;
  */
 public class CuentaJoven extends Cuenta {
     
+    private TarjetaDebitoJoven tdj; 
+    
+    public CuentaJoven(){
+        this.descuento = (float) 0.02 ; 
+        
+    }
+    
+    public void abrir(){
+        tdj = new TarjetaDebitoJoven(); 
+    }
+    
+    public TarjetaDebitoJoven getTarjetaDebito(){
+        return tdj; 
+    }
 }

@@ -11,4 +11,8 @@ package Taller4;
  */
 public class RegaloOro extends Regalo{
     
+    public RegaloOro(){
+        this.regalo= "Seguro"; 
+    }
+    
 }
